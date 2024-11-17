@@ -1,0 +1,139 @@
+/* Style général */
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Conteneur principal */
+.main {
+  display: flex;
+  width: 90%;
+  max-width: 1200px;
+  height: 80%;
+  overflow: hidden;
+}
+
+/* Section gauche : Image fixe */
+.left {
+  width: 40%; /* Largeur de la colonne gauche */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left img {
+  max-width: 90%;
+  max-height: 90%;
+  object-fit: contain;
+}
+
+/* Section droite : Contenu dynamique */
+.right {
+  flex: 1; /* Prend le reste de l'espace */
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+/* Boutons d'options */
+.options {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.option-btn {
+  background: #333; /* Fond gris foncé */
+  color: #fff; /* Texte blanc */
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.option-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Contenu principal */
+#main-content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: auto;
+  text-align: center;
+}
+
+/* Style pour les cartes */
+.cards {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  width: 100%;
+}
+
+.card {
+  width: 90%;
+  padding: 20px;
+  border-radius: 15px;
+  text-align: center;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+.card:nth-child(1) {
+  background: linear-gradient(135deg, #007bff, #00c6ff); /* Bleu dégradé */
+}
+
+.card:nth-child(2) {
+  background: linear-gradient(135deg, #ff7f7f, #ff4b4b); /* Rouge dégradé */
+}
+
+.card:nth-child(3) {
+  background: linear-gradient(135deg, #28a745, #00d97e); /* Vert dégradé */
+}
+
+/* Section Extra */
+.extra {
+  width: 100%;
+  text-align: left;
+  padding: 20px;
+}
+
+.extra h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #1d3557;
+}
+
+.extra-stats {
+  list-style: none;
+  padding: 0;
+}
+
+.extra-stats li {
+  font-size: 1rem;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.extra-stats strong {
+  color: #007bff;
+}
