@@ -9,7 +9,7 @@ Un tableau de bord interactif pour afficher des données sur la santé cardiaque
 
 ## **🌐 Voir le Projet en Ligne**
 
-👉 **[Accéder au Tableau de Bord sur GitHub Pages]((https://romcro.github.io/CardioStats/))**
+👉 **[Accéder au Tableau de Bord sur GitHub Pages](https://romcro.github.io/CardioStats/)**
 
 > Remplace `<ton-nom-utilisateur>` par ton nom d'utilisateur GitHub et `<nom-repo>` par le nom du dépôt.
 
@@ -123,7 +123,7 @@ python app.py freeze
 
 ### 🌐 **Lien vers l'Interface**
 
-👉 **[Voir le Tableau de Bord sur GitHub Pages](https://<ton-nom-utilisateur>.github.io/<nom-repo>)**
+👉 **[Voir le Tableau de Bord sur GitHub Pages](https://romcro.github.io/CardioStats/)**
 
 ---
 
