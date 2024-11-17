@@ -1,4 +1,3 @@
-D'accord ! Voici le **README.md** mis à jour avec le lien vers ton GitHub Pages intégré directement dans la section **Interface Utilisateur**. Tu pourras remplacer `<ton-nom-utilisateur>` et `<nom-repo>` une fois que tu auras configuré GitHub Pages.
 
 ---
 
@@ -10,7 +9,7 @@ Un tableau de bord interactif pour afficher des données sur la santé cardiaque
 
 ## **🌐 Voir le Projet en Ligne**
 
-👉 **[Accéder au Tableau de Bord sur GitHub Pages](https://<ton-nom-utilisateur>.github.io/<nom-repo>)**
+👉 **[Accéder au Tableau de Bord sur GitHub Pages]((https://romcro.github.io/CardioStats/))**
 
 > Remplace `<ton-nom-utilisateur>` par ton nom d'utilisateur GitHub et `<nom-repo>` par le nom du dépôt.
 
