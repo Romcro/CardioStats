@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Heart Dashboard</title>
+    <link rel="stylesheet" href="static/css/style.css" />
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  </head>
+  <body>
+    <div class="main">
+      <!-- Section gauche fixe avec l'image -->
+      <div class="left">
+        <img src="static/images/heart.png" alt="Heart Image" />
+      </div>
+
+      <!-- Section droite dynamique -->
+      <div class="right">
+        <div class="options">
+          <button class="option-btn" data-option="cards">Show Cards</button>
+          <button class="option-btn" data-option="charts">Show Charts</button>
+          <button class="option-btn" data-option="extra">Show Extra</button>
+        </div>
+        <div id="main-content"></div>
+      </div>
+    </div>
+    <script src="static/js/dashboard.js"></script>
+  </body>
+</html>
